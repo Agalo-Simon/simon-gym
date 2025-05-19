@@ -5,3 +5,4 @@ navbarToggler.addEventListener("click", () => {
   navbarMenu.classList.toggle("open");
   navbarToggler.classList.toggle("open"); // Optional: for toggler icon animation
 });
+

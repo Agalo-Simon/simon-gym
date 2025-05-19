@@ -11,12 +11,13 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="base.css" />
-    <link
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <!-- <link
       rel="shortcut icon"
       href="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg"
       type="image/x-icon"
-    />
+    /> -->
 
     <!-- link for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,7 +33,7 @@
         <div class="container">
           <div class="navbar-brand logo">
             <a href="#">
-              <img
+              <img class="logo"
                 src="https://www.fewo-direkt.de/_dms/header/logo.svg?locale=de_DE&siteid=9003020&2&6f9ec7db"
                 alt=""
               />
@@ -78,7 +79,7 @@
             type=""
             class="col data-input"
             name=""
-            placeholder="Where are you going!"
+            placeholder="Where should we go!"
           />
           <input
             type="date"
@@ -101,7 +102,289 @@
         </div>
       </div>
     </div>
+
+      <!-- ===============little banner ============-->
+   <section class="message-section ">
+    <div class="message-bar ">
+      <div class="message-icon">
+        <!-- SVGs might be corrupted -->
+        <img src="assets/img2 (2).svg" class="sign-icon" alt="">
+      </div>
+      <span class="message-text">
+        <strong>Sign in</strong> to send a message to the host and get more details about a listing.
+      </span>
+      <button class="register-btn">Register</button>
+    </div>
+  </section>
+
     <!-- ==================Images section============== -->
+
+     <!-- section Accomodation -->
+  <section class="accommodation-section">
+    <h2>Find accommodations to suit your taste</h2>
+    <div class="accommodation-cards">
+      <div class="accommodation-card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="holiday home">
+        <span class="accommodation-label">holiday home</span>
+      </div>
+      <div class="accommodation-card">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="holiday apartment">
+        <span class="accommodation-label">Holiday apartment</span>
+      </div>
+      <div class="accommodation-card">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="holiday cottage">
+        <span class="accommodation-label">holiday cottage</span>
+      </div>
+      <div class="accommodation-card">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="country house">
+        <span class="accommodation-label">country house</span>
+      </div>
+      <div class="accommodation-card">
+        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="villa">
+        <span class="accommodation-label">villa</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Weekend Section -->
+    <section class="weekend-trips-section">
+    <h2>Browse weekend trips</h2>
+    <div class="trips-period">Offers for the period: <span class="trips-period-dates">June 20–22</span></div>
+    <div class="trips-cards">
+      <div class="trip-card">
+        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Hotelier Menacher Stately room">
+        <div class="trip-badge"><span>10</span> Unusual <span class="trip-reviews">(6 reviews)</span></div>
+        <div class="trip-title">Hotelier Menacher Stately room - 55 sq m with large south-facing...</div>
+        <div class="trip-location">Neureichenau, BY</div>
+        <div class="trip-price">305 €</div>
+        <div class="trip-per-night">153 € per night<br><span class="trip-taxes">incl. taxes & fees</span></div>
+      </div>
+      <div class="trip-card">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Vacation at the North Sea">
+        <div class="trip-badge"><span>10</span> Unusual <span class="trip-reviews">(112 reviews)</span></div>
+        <div class="trip-title">Vacation at the North Sea, vacation home in Nordholz OT Spieka-...</div>
+        <div class="trip-location">Nordholz, Lower Saxony</div>
+        <div class="trip-price">403 €</div>
+        <div class="trip-per-night">202 € per night<br><span class="trip-taxes">incl. taxes & fees</span></div>
+      </div>
+      <div class="trip-card">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Detached holiday home with sauna">
+        <div class="trip-badge"><span>9.8</span> Unusual <span class="trip-reviews">(136 reviews)</span></div>
+        <div class="trip-title">Detached holiday home with sauna and whirlpool for individual use</div>
+        <div class="trip-location">Masserberg, Thuringian Forest</div>
+        <div class="trip-price">477 €</div>
+        <div class="trip-per-night">239 € per night<br><span class="trip-taxes">incl. taxes & fees</span></div>
+      </div>
+      <div class="trip-card">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Holidays in the old rectory">
+        <div class="trip-badge"><span>10</span> Unusual <span class="trip-reviews">(118 reviews)</span></div>
+        <div class="trip-title">Holidays in the old rectory</div>
+        <div class="trip-location">Temnitzquell, Brandenburg region</div>
+        <div class="trip-price">245 €</div>
+        <div class="trip-per-night">122 € per night<br><span class="trip-taxes">incl. taxes & fees</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PromoCards -->
+  <section class="promo-section">
+    <div class="promo-cards">
+      <div class="promo-card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Holiday accommodation near the lake">
+        <div class="promo-label">HOLIDAY ACCOMMODATION NEAR THE LAKE</div>
+        <div class="promo-headline">Find your holiday accommodation for a summer by the water</div>
+      </div>
+      <div class="promo-card">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="3 tips for saving">
+        <div class="promo-label">3 TIPS FOR SAVING</div>
+        <div class="promo-headline">Save on your next vacation with these three discounts</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- holiday -->
+   <section class="holiday-homes-section">
+    <h2>Holiday Homes of the Year 2025</h2>
+    <div class="holiday-homes-subtitle">Exceptional accommodations for unforgettable stays</div>
+    <div class="holiday-homes-period">Offers for the period: <span class="holiday-homes-period-dates">16 Aug.–21 Aug.</span></div>
+    <div class="holiday-homes-cards">
+      <div class="holiday-home-card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Group specialist, private villa, pool, Facing Atlas, quad, massages, ...">
+        <div class="holiday-home-badge"><span>9.8</span> Unusual <span class="holiday-home-reviews">(21 reviews)</span></div>
+        <div class="holiday-home-title">Group specialist, private villa, pool, Facing Atlas, quad, massages,...</div>
+        <div class="holiday-home-location">Tameslouht, Marrakech-Safi</div>
+        <div class="holiday-home-price">9,765 €</div>
+        <div class="holiday-home-per-night">1,953 € per night<br><span class="holiday-home-taxes">incl. taxes & fees</span></div>
+      </div>
+      <div class="holiday-home-card">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Between luxury and authenticity. Beautiful property with sea views, ...">
+        <div class="holiday-home-badge"><span>10</span> Unusual <span class="holiday-home-reviews">(32 reviews)</span></div>
+        <div class="holiday-home-title">Between luxury and authenticity. Beautiful property with sea views,...</div>
+        <div class="holiday-home-location">Deshaies, Basse-Terre</div>
+        <div class="holiday-home-price">3,897 €</div>
+        <div class="holiday-home-per-night">779 € per night<br><span class="holiday-home-taxes">incl. taxes & fees</span></div>
+      </div>
+      <div class="holiday-home-card">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="ONETANGI LUXURY | Be my guest">
+        <div class="holiday-home-badge"><span>9.8</span> Unusual <span class="holiday-home-reviews">(35 reviews)</span></div>
+        <div class="holiday-home-title">ONETANGI LUXURY | Be my guest</div>
+        <div class="holiday-home-location">Waiheke Island, Auckland</div>
+        <div class="holiday-home-price">3,864 €</div>
+        <div class="holiday-home-per-night">773 € per night<br><span class="holiday-home-taxes">incl. taxes & fees</span></div>
+      </div>
+      <div class="holiday-home-card">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Calypso - Stay Waiheke">
+        <div class="holiday-home-badge"><span>10</span> Unusual <span class="holiday-home-reviews">(2 reviews)</span></div>
+        <div class="holiday-home-title">Calypso - Stay Waiheke</div>
+        <div class="holiday-home-location">Waiheke Island, Auckland</div>
+        <div class="holiday-home-price">4,538 €</div>
+        <div class="holiday-home-per-night">908 € per night<br><span class="holiday-home-taxes">incl. taxes & fees</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- private accomodation -->
+  <section class="private-accommodation-section">
+    <div class="private-accommodation-box">
+      <div class="private-accommodation-left">
+        <h2>Find private accommodation that suits you</h2>
+        <p>Want to bring everyone from grandma to baby? Even your furry friends? Discover vacation rentals that meet your needs.</p>
+      </div>
+      <div class="private-accommodation-cards">
+        <div class="private-accommodation-card">
+          <img src="./assets/img6.webp" alt="Near the beach">
+          <span class="private-accommodation-label">Near the beach</span>
+        </div>
+        <div class="private-accommodation-card">
+          <img src="./assets/img7.jpg" alt="Pets welcome">
+          <span class="private-accommodation-label">Pets welcome</span>
+        </div>
+        <div class="private-accommodation-card">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Pools">
+          <span class="private-accommodation-label">Pools</span>
+        </div>
+        <div class="private-accommodation-card">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="More than three bedrooms">
+          <span class="private-accommodation-label">More than three bedrooms</span>
+        </div>
+        <div class="private-accommodation-card">
+          <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Holiday homes for friends">
+          <span class="private-accommodation-label">Holiday homes for friends</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- features -->
+    <div class="private-accommodation-features">
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <div class="feature-title">Simply carefree</div>
+        <div class="feature-desc">With our Book with Confidence Guarantee, we offer you 24/7 support</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">👨‍👩‍👧‍👦</div>
+        <div class="feature-title">More shared moments</div>
+        <div class="feature-desc">From booking to your stay – the entire process is simple and straightforward</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">☕</div>
+        <div class="feature-title">The same privacy as at home</div>
+        <div class="feature-desc">Enjoy amenities like a fully equipped kitchen, washing machine, pool, garden and more.</div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">😊</div>
+        <div class="feature-title">More vacation for less money</div>
+        <div class="feature-desc">More space, more privacy, more amenities – more value</div>
+      </div>
+    </div>
+  </section>
+
+  <!--========================== big image =======================-->
+  <section class="confidence-section">
+    <div class="confidence-bg">
+      <div class="confidence-content">
+        <h2>Rent your accommodation with confidence with FeWo-direkt</h2>
+        <p>Real-time support, quick and easy registration, and guests with positive feedback – with FeWo-direkt, hosting feels like a vacation.</p>
+        <button class="confidence-btn">Advertise accommodation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================simple about========================= -->
+  <section class="about-section">
+    <div class="about-container">
+      <h2>What is FeWo-direkt?</h2>
+      <p>
+        FeWo-direkt is your competent partner for vacations in a 
+        <a href="#">vacation home</a> or <a href="#">apartment</a>. As part of Vrbo, one of the leading online marketplaces for vacation rentals, FeWo-direkt offers you more than two million unique accommodations, including fincas, bungalows, apartments, <a href="#">cabins</a>, and even <a href="#">villas</a>. Secure payments, 24/7 support, and the Book with Confidence Guarantee make booking a breeze. The user-friendly website and numerous practical filters allow you to effortlessly find your dream vacation rental within your budget. This way, you're sure to have an unforgettable vacation that's completely stress-free, from the search and booking to your stay and departure.
+      </p>F
+      <h2>Renting a holiday apartment or holiday home: These are the advantages</h2>
+      <p>
+        Families and groups in particular appreciate the advantages of vacation rentals: more space, more privacy, more amenities. You have more flexibility and freedom in your own four walls than in conventional hotels and can plan your vacation freely – regardless of whether you want to go on a city break or unwind with your <a href="#">dog</a> amidst picturesque nature. Are you looking for a cozy vacation cabin in the mountains with a washing machine and <a href="#">whirlpool</a>? A <a href="#">beach house</a> on the water or a large finca in the south with a <a href="#">pool</a> and fully equipped kitchen? No problem, because vacation rentals are available in all sizes and with every desired feature you could want for your next <a href="#">family vacation</a>, adventure trip with friends, or romantic weekend.
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================destination==================================== -->
+  <section class="popular-destinations-section">
+    <div class="popular-destinations-container">
+      <h2>Popular travel destinations</h2>
+      <ul class="popular-destinations-list">
+        <li><span>Top-Reiseziele</span><span class="chevron">&#x25BC;</span></li>
+        <li><span>Einzigartige Unterkünfte</span><span class="chevron">&#x25BC;</span></li>
+        <li><span>Trendige Reiseziele im Mai</span><span class="chevron">&#x25BC;</span></li>
+        <li><span>Top-Reiseziele für Villen</span><span class="chevron">&#x25BC;</span></li>
+        <li><span>Reiseziele für Ferienwohnungen</span><span class="chevron">&#x25BC;</span></li>
+        <li><span>Reisetipps & Inspiration</span><span class="chevron">&#x25BC;</span></li>
+        <li><span>Bleib länger und spare</span><span class="chevron">&#x25BC;</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!--============================= Footer Section============================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo">FeWo-direkt</div>
+        <div class="footer-columns">
+          <div class="footer-col">
+            <div class="footer-col-title">Explore FeWo-direkt</div>
+            <a href="#">Advertise accommodation</a>
+            <a href="#">Book with confidence</a>
+            <a href="#">Trust and security</a>
+            <a href="#">Resources for partners</a>
+            <a href="#">Holiday homes and holiday inspiration</a>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Pursue</div>
+            <a href="#">About Us</a>
+            <a href="#">career</a>
+            <a href="#">Affiliate Partner</a>
+            <a href="#">press</a>
+            <a href="#">General terms and conditions of business</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Statement</a>
+            <a href="#">Reporting illegal content</a>
+            <a href="#">Legal Notice/Contact</a>
+            <a href="#">Responsible owner</a>
+            <a href="#">Content guidelines and reporting content</a>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">The Vrbo family</div>
+            <a href="#">Vrbo</a>
+            <a href="#">Abritel.fr</a>
+            <a href="#">FeWo-direkt.de</a>
+            <a href="#">Bookabach.co.nz</a>
+            <a href="#">Stayz.com.au</a>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">
+        © 2025 HomeAway, an Expedia Group company. All rights reserved. HomeAway and the HomeAway logo are trademarks or registered trademarks of HomeAway.com, Inc.
+      </div>
+    </div>
+  </footer>
     
 
     <script src="base.js"></script>
